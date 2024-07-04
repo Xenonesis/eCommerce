@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateTech</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to InnovateTech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Latest Tech Products</h2>
+        <div class="sort-filter">
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+                <option value="price">Price</option>
+                <option value="name">Name</option>
+            </select>
+            <label for="filter">Filter by price:</label>
+            <input type="number" id="min-price" placeholder="Min Price">
+            <input type="number" id="max-price" placeholder="Max Price">
+            <button id="apply-filter">Apply</button>
+        </div>
+        <div class="product-catalog">
+            <!-- Example Product -->
+            <div class="product-item">
+                <img src="images/pendrive.png" alt="BJP pendrive">
+                <h3>BJP pendrive</h3>
+                <p>$100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more products similarly -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 InnovateTech</p>
+    </footer>
+    <script src="JS/main.js"></script>
+    <script src="JS/zoom.js"></script>
+    <script src="JS/sortfilter.js"></script>
+</body>
+</html>

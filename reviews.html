@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - InnovateTech</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Reviews</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="review-form">
+            <label for="reviewer-name">Name:</label>
+            <input type="text" id="reviewer-name" required>
+            <label for="review-text">Review:</label>
+            <textarea id="review-text" required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+        <ul id="review-list">
+            <!-- Reviews will be appended here dynamically -->
+        </ul>
+    </main>
+    <script src="JS/reviews.js"></script>
+</body>
+</html>
