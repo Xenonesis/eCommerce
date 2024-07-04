@@ -1,9 +1,13 @@
 # InnovateTech E-commerce Website
 
 ## Project Overview
+
 This project is an e-commerce website for tech enthusiasts. The website allows users to browse tech products, view details, and make purchases. It includes features like user registration, product catalog, shopping cart, and more.
 
+
+
 ## Project Structure
+
 - `index.html`: Home page
 - `about.html`: About Us page
 - `contact.html`: Contact page
@@ -11,11 +15,13 @@ This project is an e-commerce website for tech enthusiasts. The website allows u
 - `cart.html`: Shopping cart page
 - `reviews.html`: Reviews page
 - `css/styles.css`: CSS for styling
-- `js/main.js`: JavaScript for basic interactivity
-- `js/zoom.js`: JavaScript for product image zoom functionality
-- `js/cart.js`: JavaScript for shopping cart functionality
-- `js/sortFilter.js`: JavaScript for sorting and filtering products
-- `js/reviews.js`: JavaScript for handling user reviews
+- `JS/main.js`: JavaScript for basic interactivity
+- `JS/zoom.js`: JavaScript for product image zoom functionality
+- `JS/cart.js`: JavaScript for shopping cart functionality
+- `JS/sortFilter.js`: JavaScript for sorting and filtering products
+- `JS/reviews.js`: JavaScript for handling user reviews
+
+
 
 ## How to Run the Project
 
@@ -41,6 +47,7 @@ This project is an e-commerce website for tech enthusiasts. The website allows u
 - JavaScript
 
 ## Future Enhancements
+
 - Implement a secure checkout process with real-world payment gateway integration.
 - Add video integration for product demos.
 - Expand user review functionality to include ratings and filtering by rating.
